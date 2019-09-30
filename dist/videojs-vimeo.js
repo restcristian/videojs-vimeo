@@ -65,7 +65,8 @@ var Vimeo = function (_Tech) {
       url: this.options_.source.src,
       byline: false,
       portrait: false,
-      title: false
+      title: false,
+      controls: false
     };
 
     if (this.options_.autoplay) {
